@@ -15,6 +15,8 @@ yarn add malhooks
 
 ## Hooks
 
+- useKeyPress &mdash; tracks keys.
+- useOnClickOutside &mdash; triggers callback when user clicks outside target area.
 - useTitle &mdash; sets title of the page.
 
 ## License
