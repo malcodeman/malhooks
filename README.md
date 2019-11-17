@@ -16,6 +16,7 @@ yarn add malhooks
 ## Hooks
 
 - useKeyPress &mdash; tracks keys.
+- useLockBodyScroll &mdash; locks scrolling of the body element.
 - useOnClickOutside &mdash; triggers callback when user clicks outside target area.
 - useTitle &mdash; sets title of the page.
 
