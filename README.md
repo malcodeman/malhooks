@@ -19,8 +19,8 @@ yarn add malhooks
 - useKeyPress &mdash; tracks keys.
 - useLockBodyScroll &mdash; locks scrolling of the body element.
 - useOnClickOutside &mdash; triggers callback when user clicks outside target area.
-- usePrevious &mdash; returns the previous state or props.
-- useTitle &mdash; sets title of the page.
+- [`usePrevious`](./docs/usePrevious.md) &mdash; returns the previous state or props.
+- [`useTitle`](./docs/useTitle.md) &mdash; sets title of the page.
 
 ## License
 
