@@ -16,7 +16,7 @@ yarn add malhooks
 ## Hooks
 
 - useInterval &mdash; declarative setInterval.
-- useKeyPress &mdash; tracks keys.
+- [`useKeyPress`](./docs/useKeyPress.md) &mdash; tracks keys.
 - [`useLockBodyScroll`](./docs/useLockBodyScroll.md) &mdash; locks scrolling of the body element.
 - [`useOnClickOutside`](./docs/useOnClickOutside.md) &mdash; triggers callback when user clicks outside target area.
 - [`usePrevious`](./docs/usePrevious.md) &mdash; returns the previous state or props.
