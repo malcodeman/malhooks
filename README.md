@@ -15,7 +15,7 @@ yarn add malhooks
 
 ## Hooks
 
-- useInterval &mdash; declarative setInterval.
+- [`useInterval`](./docs/useInterval.md) &mdash; declarative setInterval.
 - [`useKeyPress`](./docs/useKeyPress.md) &mdash; tracks keys.
 - [`useLockBodyScroll`](./docs/useLockBodyScroll.md) &mdash; locks scrolling of the body element.
 - [`useOnClickOutside`](./docs/useOnClickOutside.md) &mdash; triggers callback when user clicks outside target area.
