@@ -1,3 +1,4 @@
+export { useFavicon } from "./useFavicon";
 export { useInterval } from "./useInterval";
 export { useKeyPress } from "./useKeyPress";
 export { useLockBodyScroll } from "./useLockBodyScroll";

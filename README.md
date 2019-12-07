@@ -15,6 +15,7 @@ yarn add malhooks
 
 ## Hooks
 
+- [`useFavicon`](./docs/useFavicon.md) &mdash; sets favicon of the page.
 - [`useInterval`](./docs/useInterval.md) &mdash; declarative setInterval.
 - [`useKeyPress`](./docs/useKeyPress.md) &mdash; tracks keys.
 - [`useLockBodyScroll`](./docs/useLockBodyScroll.md) &mdash; locks scrolling of the body element.
