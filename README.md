@@ -18,6 +18,7 @@ yarn add malhooks
 - [`useFavicon`](./docs/useFavicon.md) &mdash; sets favicon of the page.
 - [`useInterval`](./docs/useInterval.md) &mdash; declarative setInterval.
 - [`useKeyPress`](./docs/useKeyPress.md) &mdash; tracks keys.
+- [`useLocalStorage`](./docs/useLocalStorage.md) &mdash; manages a value in localStorage.
 - [`useLockBodyScroll`](./docs/useLockBodyScroll.md) &mdash; locks scrolling of the body element.
 - [`useOnClickOutside`](./docs/useOnClickOutside.md) &mdash; triggers callback when user clicks outside target area.
 - [`usePrevious`](./docs/usePrevious.md) &mdash; returns the previous state or props.
