@@ -1,4 +1,5 @@
 export { useFavicon } from "./useFavicon";
+export { useIntersection } from "./useIntersection";
 export { useInterval } from "./useInterval";
 export { useKeyPress } from "./useKeyPress";
 export { useLocalStorage } from "./useLocalStorage";
