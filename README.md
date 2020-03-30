@@ -21,6 +21,7 @@ yarn add malhooks
 - [`useLocalStorage`](./docs/useLocalStorage.md) &mdash; manages a value in localStorage.
 - [`useLockBodyScroll`](./docs/useLockBodyScroll.md) &mdash; locks scrolling of the body element.
 - [`useOnClickOutside`](./docs/useOnClickOutside.md) &mdash; triggers callback when user clicks outside target area.
+- [`usePreferredTheme`](./docs/usePreferredTheme.md) &mdash; returns preferred theme.
 - [`usePrevious`](./docs/usePrevious.md) &mdash; returns the previous state or props.
 - [`useTitle`](./docs/useTitle.md) &mdash; sets title of the page.
 
