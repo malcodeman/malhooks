@@ -5,5 +5,6 @@ export { useKeyPress } from "./useKeyPress";
 export { useLocalStorage } from "./useLocalStorage";
 export { useLockBodyScroll } from "./useLockBodyScroll";
 export { useOnClickOutside } from "./useOnClickOutside";
+export { usePreferredTheme } from "./usePreferredTheme";
 export { usePrevious } from "./usePrevious";
 export { useTitle } from "./useTitle";
