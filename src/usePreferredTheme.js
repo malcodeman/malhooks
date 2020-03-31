@@ -1,7 +1,7 @@
 import React from "react";
 
 export function usePreferredTheme(scheme = "dark") {
-  const [darkTheme, setDarkTheme] = React.useState(
+  const [theme, setTheme] = React.useState(
     window.matchMedia &&
       window.matchMedia(`(prefers-color-scheme: ${scheme})`).matches
   );
@@ -12,20 +12,22 @@ export function usePreferredTheme(scheme = "dark") {
 
   React.useEffect(() => {
     function handler({ matches }) {
-      setDarkTheme(matches);
+      setTheme(matches);
     }
 
-    window
-      .matchMedia(`(prefers-color-scheme: ${scheme})`)
-      .addEventListener("change", handler);
-    return () => {
+    window.matchMedia &&
       window
         .matchMedia(`(prefers-color-scheme: ${scheme})`)
-        .removeEventListener("change", handler);
+        .addEventListener("change", handler);
+    return () => {
+      window.matchMedia &&
+        window
+          .matchMedia(`(prefers-color-scheme: ${scheme})`)
+          .removeEventListener("change", handler);
     };
   }, [scheme]);
 
-  return darkTheme;
+  return theme;
 }
 
 export default usePreferredTheme;
