@@ -7,7 +7,7 @@ export function useIntersection(ref, options) {
 
   useEffect(() => {
     if (ref.current) {
-      const handler = (entries: IntersectionObserverEntry[]) => {
+      const handler = (entries) => {
         setIntersectionObserverEntry(entries[0]);
       };
       const observer = new IntersectionObserver(handler, options);
