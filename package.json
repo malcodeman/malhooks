@@ -4,7 +4,10 @@
   "description": "Collection of React Hooks",
   "main": "dist/index.js",
   "scripts": {
-    "build": "parcel build src/index.js"
+    "dev": "start-storybook -p 6006",
+    "build": "parcel build src/index.js",
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "build-storybook && mv storybook-static/index.html storybook-static/200.html && surge storybook-static malhooks.surge.sh"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,14 @@
     "react": "^16.12.0"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-alpha.3.2"
+    "@babel/core": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0",
+    "parcel": "^2.0.0-alpha.3.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
