@@ -15,6 +15,6 @@ function Demo() {
     setDate(new Date());
   }, 1000);
 
-  return <div>{date}</div>;
+  return <div>{date.toString()}</div>;
 }
 ```
